@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<section>
+	<message incorrect="123" correctWithoutDate="USD" correct="usd 12/12/2021"/>
+	<message incorrect="123qwe" correctWithoutDate=" USD " correct="USD 12/12/2021"/>
+	<message incorrect="d5 d5d" correctWithoutDate="!USD@" correct="UsD 12/12/2021"/>
+	<message incorrect="q2d" correctWithoutDate="GBP123" correct="USD 12.12.2021"/>
+	<message incorrect="25.01.2022" correctWithoutDate="EuR 12" correct="USD 25.01.2022"/>
+	<message incorrect="sd@!dd 55" correctWithoutDate="USD /" correct=" 25.01.2022 USD  "/>
+	<message incorrect="/helpasd44" correctWithoutDate="help usd" correct=" 25/01/2022 USD "/>
+	<message incorrect="/startasd44" correctWithoutDate="usd" correct="25.01.2022 EUR"/>
+	<message incorrect="JR4L447" correctWithoutDate="UsD " correct="  25/01/2022  eUR "/>
+</section>
